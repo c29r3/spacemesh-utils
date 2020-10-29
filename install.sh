@@ -17,6 +17,8 @@ wget $CONFIG_URL -O tn01.json
 wget $UNIT_FILE_URL -O /etc/systemd/system/$SERVICE_NAME
 wget $START_FILE -O start_daemon.sh && chmod u+x start_daemon.sh
 
+systemctl stop $SERVICE_NAME
+rm -rf sm_data post_data
 systemctl daemon-reload
 systemctl enable $SERVICE_NAME
 systemctl start $SERVICE_NAME
