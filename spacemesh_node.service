@@ -1,0 +1,12 @@
+[Unit]
+Description="Spacemesh Node"
+
+[Service]
+User=root
+WorkingDirectory=/root/spacemesh/
+ExecStart=/root/spacemesh/start_daemon.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
