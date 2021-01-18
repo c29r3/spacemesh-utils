@@ -1,9 +1,9 @@
 #!/bin/bash
 USR="root"
 HOME_PATH="/root"
-RELEASE_URL="https://storage.googleapis.com/smapp/go-sm-0.1.17/go-spacemesh-linux"
+RELEASE_URL="https://github.com/spacemeshos/go-spacemesh/releases/download/v0.1.22/go-spacemesh-linux"
 CLI_URL="https://github.com/spacemeshos/CLIWallet/releases/download/v0.0.1/cli_wallet_linux_amd64"
-CONFIG_URL="https://storage.googleapis.com/smapp/0.1.5/config_122.json"
+CONFIG_URL="https://raw.githubusercontent.com/c29r3/spacemesh-utils/main/config.json"
 UNIT_FILE_URL="https://raw.githubusercontent.com/c29r3/spacemesh-utils/main/spacemesh_node.service"
 START_FILE="https://raw.githubusercontent.com/c29r3/spacemesh-utils/main/start_daemon.sh"
 SERVICE_NAME="spacemesh_node.service"
