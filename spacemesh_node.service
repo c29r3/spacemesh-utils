@@ -2,6 +2,7 @@
 Description="Spacemesh Node"
 
 [Service]
+CPUQuota=300%
 User=root
 WorkingDirectory=/root/spacemesh/
 ExecStart=/root/spacemesh/start_daemon.sh
