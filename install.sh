@@ -1,9 +1,9 @@
 #!/bin/bash
 USR="root"
 HOME_PATH="/root"
-RELEASE_URL="https://storage.googleapis.com/go-spacemesh-release-builds/v0.1.41/ubuntu-latest/go-spacemesh"
+RELEASE_URL="https://storage.googleapis.com/go-spacemesh-release-builds/v0.1.44/ubuntu-latest/go-spacemesh"
 CLI_URL="https://github.com/spacemeshos/CLIWallet/releases/download/v0.0.1/cli_wallet_linux_amd64"
-CONFIG_URL="https://storage.googleapis.com/spacecraft-data/tweedlelite133-archive/config.json"
+CONFIG_URL="https://storage.googleapis.com/spacecraft-data/tweedlelite134-archive/config.json"
 UNIT_FILE_URL="https://raw.githubusercontent.com/c29r3/spacemesh-utils/main/spacemesh_node.service"
 START_FILE="https://raw.githubusercontent.com/c29r3/spacemesh-utils/main/start_daemon.sh"
 SERVICE_NAME="spacemesh_node.service"
